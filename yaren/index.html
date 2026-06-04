@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitYaşam | Sağlıklı Beslenme</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f5f7f9;
+color:#333;
+}
+
+nav{
+background:#0f5132;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+color:white;
+font-size:28px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:600;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#ffd54f;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1600");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:70px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:24px;
+margin-bottom:30px;
+}
+
+.btn{
+background:linear-gradient(135deg,#43a047,#66bb6a);
+padding:16px 40px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:50px;
+color:#0f5132;
+font-size:40px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+width:330px;
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:230px;
+object-fit:cover;
+}
+
+.card-content{
+padding:25px;
+}
+
+.card-content h3{
+color:#2e7d32;
+margin-bottom:12px;
+}
+
+.tips{
+background:white;
+padding:50px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+footer{
+background:#0f5132;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:42px;
+}
+
+.menu{
+display:none;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">🥗 FitYaşam</div>
+
+<div class="menu">
+<a href="index.html">Ana Sayfa</a>
+<a href="besinler.html">Besinler</a>
+<a href="diyet.html">Diyet</a>
+<a href="iletisim.html">İletişim</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Sağlıklı Yaşamın Yeni Adresi</h1>
+<p>Doğru beslenme ile enerjinizi yükseltin.</p>
+<a href="diyet.html" class="btn">Hemen Başla</a>
+</div>
+</section>
+
+<section class="section">
+<h2>Sağlıklı Yaşamın Temelleri</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=800">
+<div class="card-content">
+<h3>🍓 Doğal Beslenme</h3>
+<p>Taze sebze ve meyveler bağışıklık sisteminizi güçlendirir.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800">
+<div class="card-content">
+<h3>🥗 Dengeli Öğünler</h3>
+<p>Protein, karbonhidrat ve yağ dengesini koruyun.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=800">
+<div class="card-content">
+<h3>💧 Yeterli Su</h3>
+<p>Günlük su tüketimi vücut fonksiyonları için kritik öneme sahiptir.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="tips">
+<h2>🌿 Günün Tavsiyesi</h2>
+<p>
+Her gün en az 30 dakika yürüyüş yaparak hem fiziksel hem de zihinsel sağlığınızı destekleyin.
+</p>
+</div>
+</section>
+
+<footer>
+© 2026 FitYaşam | Sağlıklı Beslenme Rehberi
+</footer>
+
+</body>
+</html>

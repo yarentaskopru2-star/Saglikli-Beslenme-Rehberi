@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Besin Grupları | FitYaşam</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f5f7f9;
+color:#333;
+}
+
+nav{
+background:#0f5132;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:white;
+font-size:28px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:600;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#ffd54f;
+}
+
+.hero{
+height:45vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1600");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.section{
+padding:70px 8%;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+width:300px;
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:25px;
+text-align:center;
+}
+
+.card-content h2{
+color:#2e7d32;
+margin-bottom:10px;
+}
+
+.card-content p{
+line-height:1.7;
+}
+
+.info{
+max-width:1000px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+text-align:center;
+margin-top:60px;
+}
+
+footer{
+background:#0f5132;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+.menu a{
+margin:0 10px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">🥗 FitYaşam</div>
+
+<div class="menu">
+<a href="index.html">Ana Sayfa</a>
+<a href="besinler.html">Besinler</a>
+<a href="diyet.html">Diyet</a>
+<a href="iletisim.html">İletişim</a>
+</div>
+
+</nav>
+
+<section class="hero">
+<h1>🍎 Besin Grupları</h1>
+</section>
+
+<section class="section">
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=800">
+<div class="card-content">
+<h2>🍓 Meyveler</h2>
+<p>
+Vitamin, mineral ve antioksidan bakımından zengindir.
+Bağışıklık sistemini destekler.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800">
+<div class="card-content">
+<h2>🥦 Sebzeler</h2>
+<p>
+Lif içerikleri sayesinde sindirim sistemini destekler ve
+düşük kalorili beslenmeye yardımcı olur.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?w=800">
+<div class="card-content">
+<h2>🥛 Süt Ürünleri</h2>
+<p>
+Kalsiyum ve protein kaynağıdır.
+Kemik ve kas gelişimini destekler.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800">
+<div class="card-content">
+<h2>🌾 Tahıllar</h2>
+<p>
+Kompleks karbonhidrat içerir.
+Uzun süre enerji sağlayarak tok kalmanıza yardımcı olur.
+</p>
+</div>
+</div>
+
+</div>
+
+<div class="info">
+
+<h2 style="color:#2e7d32;margin-bottom:20px;">
+🌿 Dengeli Beslenmenin Önemi
+</h2>
+
+<p style="line-height:1.8;">
+Sağlıklı bir yaşam için tüm besin gruplarını dengeli şekilde tüketmek gerekir.
+Meyveler, sebzeler, süt ürünleri ve tahıllar vücudun ihtiyaç duyduğu temel
+besin öğelerini sağlar. Günlük beslenme planınızda her gruba yer vermek
+enerji seviyenizi artırır ve genel sağlığınızı korur.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 FitYaşam | Sağlıklı Beslenme Rehberi
+</footer>
+
+</body>
+</html>

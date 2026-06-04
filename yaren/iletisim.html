@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>İletişim</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI,sans-serif;
+background:#f4f7f8;
+}
+
+nav{
+background:#0f5132;
+padding:18px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.container{
+max-width:700px;
+margin:60px auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+h1{
+text-align:center;
+color:#0f5132;
+margin-bottom:30px;
+}
+
+input,textarea{
+width:100%;
+padding:15px;
+margin-bottom:15px;
+border:1px solid #ddd;
+border-radius:10px;
+font-size:16px;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+background:#2e7d32;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1b5e20;
+}
+
+.info{
+text-align:center;
+margin-top:30px;
+color:#666;
+}
+
+footer{
+background:#0f5132;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+</style>
+
+<script>
+function gonder(event){
+event.preventDefault();
+alert("Mesajınız başarıyla gönderildi.");
+}
+</script>
+
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="besinler.html">Besinler</a>
+<a href="diyet.html">Diyet</a>
+<a href="iletisim.html">İletişim</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h1>📞 Bizimle İletişime Geçin</h1>
+
+<form onsubmit="gonder(event)">
+
+<input type="text" placeholder="Ad Soyad" required>
+
+<input type="email" placeholder="E-posta Adresiniz" required>
+
+<textarea rows="6" placeholder="Mesajınızı yazın"></textarea>
+
+<button type="submit">Mesaj Gönder</button>
+
+</form>
+
+<div class="info">
+<p>📧 info@fityasam.com</p>
+<p>📱 +90 555 555 55 55</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 FitYaşam
+</footer>
+
+</body>
+</html>
